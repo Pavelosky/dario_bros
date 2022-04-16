@@ -29,19 +29,19 @@ function preload()
     soundFormats('mp3','wav');
     
     
-    jumpSound = loadSound('assets/jump.wav');
+    jumpSound = loadSound('jump.wav');
     jumpSound.setVolume(0.1);
     
-    fallSound = loadSound('assets/mixkit-player-losing-or-failing-2042.wav');
+    fallSound = loadSound('mixkit-player-losing-or-failing-2042.wav');
     fallSound.setVolume(0.1);
     
-    coinSound = loadSound('assets/coin_found.wav');
+    coinSound = loadSound('coin_found.wav');
     coinSound.setVolume(0.1);
     
-    flagSound = loadSound('assets/lvl_complete.wav');
+    flagSound = loadSound('lvl_complete.wav');
     flagSound.setVolume(0.15);
     
-    enemySound = loadSound('assets/jg-032316-sfx-video-game-fail-sound-2.mp3');
+    enemySound = loadSound('jg-032316-sfx-video-game-fail-sound-2.mp3');
     enemySound.setVolume(0.8);
     
 }
